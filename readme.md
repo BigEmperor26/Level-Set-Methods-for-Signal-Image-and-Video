@@ -115,6 +115,4 @@ https://www.sciencedirect.com/science/article/pii/S0021999117307441#br0070
 https://agustinus.kristia.de/techblog/2016/11/05/levelset-method/
 https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.11083.7076&rep=rep1&type=pdf
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5557813
-
-
-
+https://agustinus.kristia.de/techblog/2016/11/05/levelset-method/
