@@ -52,7 +52,7 @@ Here there is a animation of the zero level set of a dynamic curve
 
 They can be used to model dynamic curves with changing topology
 
-<img src="images\circles expanding\out.gif" />
+<img src="images\two circles\out.gif" />
 
 The curve <img src="https://render.githubusercontent.com/render/math?math=\phi"> moves according to a velocity <img src="https://render.githubusercontent.com/render/math?math=F">.
 
