@@ -82,7 +82,7 @@ Other implementations do not require redistancing/reinitialization
 
 For image processing we use a velocity <img src="https://render.githubusercontent.com/render/math?math=F"> that is 0 or close to zero at the edges
 
-<img src="https://render.githubusercontent.com/render/math?math=F = \frac{1}{1+||\nabla I||}">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{1}{ 1 + ||\nabla I||}">
 
 Where <img src="https://render.githubusercontent.com/render/math?math=I"> is the image, and <img src="https://render.githubusercontent.com/render/math?math=\nabla I"> are the edges according to gradient edge detection
 
