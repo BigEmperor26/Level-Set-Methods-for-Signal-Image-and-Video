@@ -39,9 +39,9 @@ pip install matplotlib
 ```
 ## What are level set ?
 
-A level set of a function $\phi$ is a $\{(x,y): \phi (x,y) = c\}$.
+A level set of a function $$\phi$$ is a $$\{(x,y): \phi (x,y) = c\}$$.
 
-Usually we are insterested in the *zero level set* $\{(x,y): \phi (x,y) = 0\}$.
+Usually we are insterested in the *zero level set* $$\{(x,y): \phi (x,y) = 0\}$$.
 
 Here there is a animation of the zero level set of a dynamic curve
 
@@ -51,15 +51,15 @@ They can be used to model dynamic curves with changing topology
 
 <img src="images\circles expanding\out.gif" />
 
-The curve $\phi$ moves according to a velocity $F$.
+The curve $$\phi$$ moves according to a velocity $$F$$.
 
 Require to solve a **PDE**
 
-$\frac{ \partial\phi}{\partial t} = F||\nabla \phi||$
+$$\frac{ \partial\phi}{\partial t} = F||\nabla \phi||$$
 
 Approximate solution by **finite differences**
 
-$\phi(x,y,t+\Delta t) = \phi(x,y,t) - \Delta t F||\nabla\phi||$
+$$\phi(x,y,t+\Delta t) = \phi(x,y,t) - \Delta t F||\nabla\phi||$$
 
 But finite differences have approxximation errors
 
@@ -67,9 +67,9 @@ But finite differences have approxximation errors
 
 The curve degrades after a while due to numerical errors propagating
 
-A solution is to reinitialize the curve $\phi$ every a number of iterations as the signed difference
+A solution is to reinitialize the curve $$\phi$$ every a number of iterations as the signed difference
 
-$\phi = sign(\phi)(1-||\nabla\phi||)$
+$$\phi = sign(\phi)(1-||\nabla\phi||)$$
 
 Computation of this quantity is done through the library <code> skfmm </code>
 
@@ -77,11 +77,11 @@ Computation of this quantity is done through the library <code> skfmm </code>
 
 Other implementations do not require redistancing/reinitialization
 
-For image processing we use a velocity $F$ that is 0 or close to zero at the edges
+For image processing we use a velocity $$F$$ that is 0 or close to zero at the edges
 
-$F = \frac{1}{1+||\nabla I||}$
+$$F = \frac{1}{1+||\nabla I||}$$
 
-Where $I$ is the image, and $\nabla I$ are the edges according to gradient edge detection
+Where $$I$$ is the image, and $$\nabla I$$ are the edges according to gradient edge detection
 
 This way we the get contours of the image
 
