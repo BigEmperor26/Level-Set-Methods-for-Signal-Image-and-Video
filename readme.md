@@ -72,7 +72,7 @@ The curve degrades after a while due to numerical errors propagating
 
 A solution is to reinitialize the curve <img src="https://render.githubusercontent.com/render/math?math=\phi"> every a number of iterations as the signed difference
 
-<img src="https://render.githubusercontent.com/render/math?math=\phi = sign(\phi)(1-||\nabla\phi||)">
+<img src="https://render.githubusercontent.com/render/math?math=\phi = sign(\phi)(1 - ||\nabla\phi||)">
 
 Computation of this quantity is done through the library <code> skfmm </code>
 
