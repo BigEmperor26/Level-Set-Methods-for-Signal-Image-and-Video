@@ -49,7 +49,7 @@ Here there is a animation of the zero level set of a dynamic curve
 
 They can be used to model dynamic curves with changing topology
 
-<img src="images\level set without redistancing\out.gif" />
+<img src="images\circles expanding\out.gif" />
 
 The curve $\phi$ moves according to a velocity $F$.
 
